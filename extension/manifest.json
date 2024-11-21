@@ -1,0 +1,16 @@
+{
+  "name": "Scripting API Demo",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Uses the chrome.scripting API to inject JavaScript into web pages.",
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": [
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
