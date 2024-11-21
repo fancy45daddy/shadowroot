@@ -1,4 +1,4 @@
-import * as playwright from 'patchright'
+import * as playwright from 'playwright'
 import path from 'path'
 import url from 'url'
 import os from 'os'
